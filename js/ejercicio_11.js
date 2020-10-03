@@ -1,7 +1,6 @@
 //Ejercicio 11
-const AniosTrabajados=4;
-const nombre_b='Jose';
 
+let AniosTrabajados=Number.parseInt(prompt('Ingresa el número de años laborado del trabajador en la empresa:'));
 let bono;
 switch (AniosTrabajados) {
     case 1:
@@ -22,4 +21,4 @@ switch (AniosTrabajados) {
     default:
         bono=1000;
   }
-console.log(`El trabajador ${nombre_b} ha laborado ${AniosTrabajados} años y le corresponde un bono: ${bono} dolares`);
+console.log(`El trabajador ha laborado ${AniosTrabajados} años y le corresponde un bono: ${bono} dolares`);

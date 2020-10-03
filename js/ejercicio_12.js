@@ -1,25 +1,26 @@
 //Ejercicio 12
-/*const SalarioInicial=1500;
+const SalarioInicial=1500;
 
-let IncrementoAnual;
-let SalarioConIncre;
-let SalarioAcumulado;
+let IncrementoAnual=0;
+let SalarioConIncre=0;
+let SalarioAcumulado=0;
 
 for (var i = 1; i <=6; i++) {
-    if(i=1)
+    if(i==1)
     {
-        IncrementoAnual=0.1*SalarioInicial;
-        SalarioConIncre=SalarioInicial+IncrementoAnual;
-        console.log(`Su salario durante el año ${i} es ${SalarioConIncre} dolares`);
+        SalarioAnual=12*SalarioInicial;
+        SalarioConIncre=SalarioInicial;
+        console.log(`Su salario mensual en el año ${i} es ${SalarioInicial} dolares`);
     }
     else
     {
         IncrementoAnual=0.1*SalarioConIncre;
-        SalarioConIncre=SalarioConIncre+IncrementoAnual;
-        console.log(`Su salario durante el año ${i} es ${SalarioConIncre} dolares`);
+        SalarioConIncre=SalarioInicial+IncrementoAnual;
+        SalarioAnual=12*SalarioConIncre;
+        console.log(`Su salario mensual en el año ${i} es ${SalarioConIncre} dolares incremento anual ${IncrementoAnual}`);
     }
-    SalarioAcumulado=SalarioAcumulado+SalarioConIncre;
+    SalarioAcumulado=SalarioAcumulado+SalarioAnual;
  }
 
  console.log(`Su salario durante durante los 6 años es: ${SalarioAcumulado} dolares`);
- */
+

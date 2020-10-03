@@ -1,7 +1,9 @@
 //Ejercicio 11
 let ContadoDesaprobado=0;
 let ContadorAprobado=0;
-for (var i = 1; i <=3; i++) 
+
+let NumeroAlumnos=Number.parseInt(prompt('Ingresa el número de alumnos:'));
+for (var i = 1; i <=NumeroAlumnos; i++) 
 {
     let nota=prompt(`Ingresa la nota ${i}`);
 

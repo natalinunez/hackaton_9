@@ -1,10 +1,10 @@
 //Ejercicio 10
-const nombre_1='Andres';
-const nombre_2='Laura';
-const nombre_3='Juan';
-const edad_1=10;
-const edad_2=12;
-const edad_3=20;
+let nombre_1=prompt('Ingresa el nombre de la primera persona:');
+let edad_1=Number.parseInt(prompt('Ingresa su edad :'));
+let nombre_2=prompt('Ingresa el nombre de la segunda persona:');
+let edad_2=Number.parseInt(prompt('Ingresa su edad :'));
+let nombre_3=prompt('Ingresa el nombre de la tercera persona:');
+let edad_3=Number.parseInt(prompt('Ingresa su edad :'));
 
 let edadMenor;
 let nombre_n;

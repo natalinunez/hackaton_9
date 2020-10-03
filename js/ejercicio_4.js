@@ -1,7 +1,9 @@
 //Ejercicio 4
-const base=13;
-const altura=10;
+
 let AreaTriangulo;
+let base=Number.parseFloat(prompt('Ingresa base:'));
+let altura=Number.parseFloat(prompt('Ingresa altura:'));
+
 AreaTriangulo=(base*altura)/2;
-console.log(`El área del rectángulo es: ${AreaTriangulo}`);
+console.log(`El área del triángulo con base ${base} y altura ${altura} es: ${AreaTriangulo}`);
 

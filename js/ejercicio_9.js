@@ -1,9 +1,8 @@
 //Ejercicio 9
-const nombre='Andres';
-const AnioNacimiento=1995;
+let AnioNacimiento=Number.parseInt(prompt('Ingresa el año de nacimiento del candidato:'));
 let fecha=new Date();
 let AnioActual=fecha.getFullYear();
 let edad=AnioActual-AnioNacimiento;
 
-console.log(`El candidato ${nombre} tiene: ${edad} años`);
+console.log(`El candidato tiene: ${edad} años`);
 

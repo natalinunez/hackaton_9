@@ -2,7 +2,8 @@ let ConVerde=0;
 let ConBlanco=0;
 let ConRojo=0;
 
-for (var i = 1; i <=3; i++) 
+let NumeroFocos=Number.parseInt(prompt('Ingresa el número de focos:'));
+for (var i = 1; i <=NumeroFocos; i++) 
 {
     let ColorFoco=prompt(`Ingresa color del foco ${i}`);
 
